@@ -1,0 +1,10 @@
+# wtf is this file faRZA
+
+FROM python:3.6-alpine
+
+WORKDIR .
+COPY thanos.txt thanos.txt
+RUN pip install -r thanos.txt
+
+COPY jack_black.py jack_black.py
+CMD ["python", "jack_black.py"]
