@@ -1,13 +1,110 @@
 <!DOCTYPE html>
 <html>
+
+<style>
+.body {
+    background-color: white;
+}
+.mainContainer {
+    font-family: Open Sans,sans-serif;
+    margin: 30px 30px;
+}
+.mainTitle {
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.subSection {
+    font-size: 17px;
+    font-weight: 100;
+    margin-top: 42px;
+}
+
+#mc_embed_signup {
+    margin-top: 10px;
+    width: 100%;
+}
+
+@media screen and (min-device-width: 600px) {
+  .mainContainer {
+    max-width: 500px;
+    margin: 60px 80px;
+  }
+}
+
+.smallText {
+    font-style: italic;
+}
+
+</style>
+
 <head>
-    <title>Hello World!</title>
+    <title>Farza</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" filename="static/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="static/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/favicon-16x16.png">
+    <link rel="manifest" href="static/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 </head>
 <body>
-    <div>
-         <p>
-            yo yo i'm farza 🎉
-         </p>
+    <div class="mainContainer">
+        <div class="mainTitle">
+            Yo, I'm Farza  🎉
+        </div>
+        
+        <div class="subSection">
+            <span style="color:#7b3f9e;">Currently</span> I am the cofounder/CTO of a stealth company within the gaming space (located in NYC).
+             We recently finished fundraising and I promise we won't be stealth much longer. Just need to come up with a name for the company lmaooo. 
+        </div>
+
+        <div class="subSection">
+            I write a <span style="color: #008070;">personal newsletter</span> 
+            every Sunday that summarizes what I did that particular week. It's a 
+            way for me to share my learnings/problems while on the startup journey.
+            I keep it spicy, so def sign up. What's the worst that can happen? 
+            I send you curated meme content from my collection? Actually, that sounds 
+            like a pretty good idea...
+        </div>
+
+        <!-- Begin Mailchimp Signup Form -->
+        <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+        <style type="text/css">
+            #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; padding: 0px;}
+            /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+            We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+        </style>
+        <div id="mc_embed_signup">
+        <form action="https://Mood.us16.list-manage.com/subscribe/post?u=b76a07461f290681492d3548d&amp;id=0c88c48380" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" style="padding: 0px;" novalidate>
+            <div id="mc_embed_signup_scroll">
+            
+            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_b76a07461f290681492d3548d_0c88c48380" tabindex="-1" value=""></div>
+            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+            </div>
+        </form>
+        </div>
+
+        <!--End mc_embed_signup-->
+
+
+        <div class="subSection">
+            <div><span style="color:#900000;">past:</span> visor.gg (YC W18), noni.menu (YC Startup School), mood.gg (450k+ users), 
+            DeepLeague (open source, deep learning based tool)
+            UCF CRCV research on end-to-end deep learning for self-driving cars (beat NVIDIAs results but Google
+            published with the same idea 3 weeks later RIP)</div>
+        </div>
+
+        <div class="subSection">
+            <div>twitter: @farzatv</div>
+            <div>email: farzadoesstuff [at] gmail [dot] com</div>
+        </div>
+
+        <div class="subSection">
+            <span class="smallText">rip lil peep</span>
+        </div>
     </div>
 </body>
 </html>

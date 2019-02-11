@@ -9,7 +9,7 @@ import os
 # lmaooo
 os.rename('elongated_musk', 'elongated_musk.html')
 
-app = Flask(__name__, static_url_path='')
+app = Flask(__name__)
 
 @app.route("/")
 def meme_page():
