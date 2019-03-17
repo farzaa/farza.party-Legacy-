@@ -2,4 +2,4 @@
 
 sudo service docker start
 sudo docker build -t nice -f pewdiepie .
-sudo docker run --name=farza -p 80:80 nice
+sudo docker run -d --name=farza -p 80:80 nice
