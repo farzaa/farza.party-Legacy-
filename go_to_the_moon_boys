@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+ssh -i ~/farza-key.pem ec2-user@18.224.114.44 "\
+cd farza.party
+git pull
+sudo ./lilpump
+"
+# cd farza.party
+# git pull
+# docker stop nice && docker rm nice
+# ./lilpump
