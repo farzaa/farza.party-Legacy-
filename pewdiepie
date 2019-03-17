@@ -7,6 +7,6 @@ COPY thanos thanos
 RUN pip install -r thanos
 
 COPY jack_black.py jack_black.py
-COPY elongated_musk elongated_musk
+COPY elongated_musk.py elongated_musk.py
 COPY static static
 CMD ["python", "jack_black"]
