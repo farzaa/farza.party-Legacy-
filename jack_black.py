@@ -22,4 +22,4 @@ def specificTrash(page=None):
 
 # Dev Mode: FLASK_APP=jack_black FLASK_DEBUG=1 python -m flask run
 if __name__ == '__main__':
-    app.run(host="0.0.0.0", port=5000)
+    app.run(host="0.0.0.0", port=80)
