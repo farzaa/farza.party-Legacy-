@@ -1,0 +1,33 @@
+.body {
+    background-color: white;
+}
+.mainContainer {
+    font-family: Open Sans,sans-serif;
+    margin: 30px 30px;
+}
+.mainTitle {
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.subSection {
+    font-size: 17px;
+    font-weight: 100;
+    margin-top: 20px;
+}
+
+#mc_embed_signup {
+    margin-top: 10px;
+    width: 100%;
+}
+
+@media screen and (min-device-width: 600px) {
+  .mainContainer {
+    max-width: 500px;
+    margin: 60px 80px;
+  }
+}
+
+.smallText {
+    font-style: italic;
+}

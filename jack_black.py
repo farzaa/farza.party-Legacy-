@@ -20,6 +20,10 @@ def trash():
 def specificTrash(page=None):
     return send_from_directory(".", f"garbanzo/{page}.html")
 
+@app.route("/notes/<page>")
+def specificPasta(page=None):
+    return send_from_directory(".", f"garbanzo/notes_{page}.html")
+
 # Dev Mode: FLASK_APP=jack_black FLASK_DEBUG=1 python -m flask run
 if __name__ == '__main__':
     app.run(host="0.0.0.0", port=80)
